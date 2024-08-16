@@ -35,6 +35,12 @@
               <p class="card-description">小羊多功能工具箱——微信小程序，天气查询，油价查询等。</p>
             </a>
           </div>
+          <div class="card">
+            <a href="https://github.com/helloyangy/sheepnavigation" class="card-link">
+              <h3 class="card-title">开源项目地址</h3>
+              <p class="card-description">本导航站开源，使用veu3和bootstrap构建</p>
+            </a>
+          </div>
         </div>
       </section>
     </main>
