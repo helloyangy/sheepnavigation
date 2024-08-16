@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar">
+  <nav ref="navbar" class="navbar">
     <div class="navbar__logo">
       <router-link to="/" class="logo-link">小羊导航站</router-link>
     </div>
@@ -34,7 +34,20 @@ export default {
   methods: {
     toggleDropdown() {
       this.dropdownOpen = !this.dropdownOpen;
+    },
+    handleScroll() {
+      if (window.scrollY > 0) {
+        this.$refs.navbar.classList.add('sticky');
+      } else {
+        this.$refs.navbar.classList.remove('sticky');
+      }
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 }
 </script>
@@ -60,7 +73,14 @@ body {
   box-shadow: 
     inset 0 0 3px rgba(255, 255, 255, 0.7), /* 内阴影 */
     0 4px 8px rgba(0, 0, 0, 0.2); /* 外阴影 */
-  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(109, 213, 237, 0.9); /* 稍微透明的背景色以适应渐变 */
 }
 
 .navbar::before {
