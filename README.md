@@ -26,17 +26,17 @@ Windows激活是\src\views\WindowsActivation.vue
 
 Windows镜像下载是\src\views\WindowsDownload.vue
 
-![91318f859eaa0bc324f09ccac29ec244.png](../../_resources/91318f859eaa0bc324f09ccac29ec244-1.png)
+![91318f859eaa0bc324f09ccac29ec244.png](./_resources/91318f859eaa0bc324f09ccac29ec244-1.png)
 
 天气组件\src\views\WeatherComponent\WeatherComponent.vue
 
 每日一言组件\src\views\DailyQuote\DailyQuote.vue
 
-![37384b362f69a7ca961da043b8f36c5c.png](../../_resources/37384b362f69a7ca961da043b8f36c5c-1.png)
+![37384b362f69a7ca961da043b8f36c5c.png](./_resources/37384b362f69a7ca961da043b8f36c5c-1.png)
 
 如果不需要音乐组件可以Home.vue，找到音乐代码注释掉即可
 
-![65c95f51dfb3a23968d99a33c765b6a8.png](../../_resources/65c95f51dfb3a23968d99a33c765b6a8-1.png)
+![65c95f51dfb3a23968d99a33c765b6a8.png](./_resources/65c95f51dfb3a23968d99a33c765b6a8-1.png)
 
 # 安装
 
