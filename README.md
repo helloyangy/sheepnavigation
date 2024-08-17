@@ -26,29 +26,17 @@ Windows激活是\src\views\WindowsActivation.vue
 
 Windows镜像下载是\src\views\WindowsDownload.vue
 
-<<<<<<< HEAD
-![91318f859eaa0bc324f09ccac29ec244.png](./_resources/91318f859eaa0bc324f09ccac29ec244-1.png)
-=======
 ![91318f859eaa0bc324f09ccac29ec244.png](../../_resources/91318f859eaa0bc324f09ccac29ec244-2.png)
->>>>>>> 9c375d9 (修复每日一言跨域问题)
 
 天气组件\src\views\WeatherComponent\WeatherComponent.vue
 
 每日一言组件\src\views\DailyQuote\DailyQuote.vue
 
-<<<<<<< HEAD
-![37384b362f69a7ca961da043b8f36c5c.png](./_resources/37384b362f69a7ca961da043b8f36c5c-1.png)
-
-如果不需要音乐组件可以Home.vue，找到音乐代码注释掉即可
-
-![65c95f51dfb3a23968d99a33c765b6a8.png](./_resources/65c95f51dfb3a23968d99a33c765b6a8-1.png)
-=======
 ![37384b362f69a7ca961da043b8f36c5c.png](../../_resources/37384b362f69a7ca961da043b8f36c5c-2.png)
 
 如果不需要音乐组件可以Home.vue，找到音乐代码注释掉即可
 
 ![65c95f51dfb3a23968d99a33c765b6a8.png](../../_resources/65c95f51dfb3a23968d99a33c765b6a8-2.png)
->>>>>>> 9c375d9 (修复每日一言跨域问题)
 
 # 安装
 
@@ -80,8 +68,6 @@ npm run build
 ```
 
 输出到dist目录：构建的最终结果通常会输出到项目的dist目录中。
-<<<<<<< HEAD
-=======
 
 
  欢迎访问微信公众号，有任何疑问可以联系到我
@@ -90,4 +76,3 @@ npm run build
 
 
 
->>>>>>> 9c375d9 (修复每日一言跨域问题)
